@@ -1,6 +1,6 @@
 /*
-SELECT @@servername as DBInstance,db_name() as DBName
--- use zzrehan
+SELECT @@servicename,@@VERSION,db_name()
+-- use <DBName>
 SELECT name FROM sys.tables
 --EXEC sp_tables @table_type = "'TABLE'";
 
