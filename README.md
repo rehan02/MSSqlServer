@@ -14,7 +14,7 @@ SELECT name, database_id, create_date FROM sys.databases;
 
 -- to select a database
 
-use <DBName>
+use <<database name>>
 
 -- check tables in the selected DB
 
