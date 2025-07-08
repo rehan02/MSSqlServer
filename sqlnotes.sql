@@ -1,12 +1,5 @@
 /*
 SELECT @@servername as DBInstance,db_name() as DBName
--- use zzrehan
-SELECT name FROM sys.tables
---EXEC sp_tables @table_type = "'TABLE'";
-
-SELECT name, database_id, create_date
-FROM sys.databases;
-GO
 
 CREATE TABLE CUSTOMERS (
 	ID INT				NOT NULL,
