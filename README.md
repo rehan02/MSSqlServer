@@ -4,9 +4,9 @@
 https://sample-files.com/misc/sql/
 
 
---view DBMS version, instance name  and database name
+--view DBMS Server/instance, version database name
 
-SELECT @@VERSION,@@servicename,db_name()
+SELECT @@servername,@@VERSION,db_name()
 
 -- to select a database
 use <DBName>
