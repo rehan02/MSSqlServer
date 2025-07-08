@@ -10,7 +10,8 @@ SELECT @@servername,@@VERSION,db_name()
 
 -- check the db names and specs
 
-SELECT name, database_id, create_date FROM sys.databases;
+SELECT name, database_id, create_date 
+FROM sys.databases;
 
 -- to select a database
 
@@ -21,8 +22,5 @@ use databaseName
 SELECT name FROM sys.tables
 
 --EXEC sp_tables @table_type = "'TABLE'";
-
-SELECT name, database_id, create_date
-FROM sys.databases;
 
 GO
